@@ -2,6 +2,10 @@ h1 {
   color: maroon;
 }
 
+h2.destination {
+  font-family: cursive;
+}
+
 p {
   font-family: Arial;
 }
