@@ -6,6 +6,10 @@ h2.destination {
   font-family: cursive;
 }
 
+h5 {
+  color: rebeccapurple;
+}
+
 .description h5 {
   color: teal;
 }
