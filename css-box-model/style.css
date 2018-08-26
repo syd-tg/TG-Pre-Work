@@ -24,6 +24,10 @@ li {
   text-transform: uppercase;
 }
 
+.donate {
+  visibility: hidden;
+}
+
 .logo {
   color: #000;
   font-size: 18px;
