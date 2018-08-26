@@ -18,6 +18,10 @@ p {
   font-family: Arial;
 }
 
+h5, p {
+  font-family: Georgia;
+}
+
 .title {
   color: teal;
 }
