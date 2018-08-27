@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Glegoo';
+  src: url(../fonts/Glegoo-Regular.ttf) format('truetype'),
+    url(../fonts/Glegoo-Bold.ttf) format('truetype');
+}
+
 /* latin */
 @font-face {
   font-family: 'Space Mono';
@@ -110,6 +116,8 @@ a.home {
   color: #ffffff;
   font-weight: bold;
   line-height: 1.4;
+  font-family: Glegoo;
+  font-size: 20px;
 }
 
 /* Editorial Sections */
