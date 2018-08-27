@@ -9,6 +9,10 @@ body {
   background-color: #F2F2F2;
 }
 
+h1, h2 {
+  font-family: Georgia;
+}
+
 h1 {
   color: white;
   font-size: 28px;
@@ -26,6 +30,7 @@ a {
 
 p {
   margin: 16px 0;
+  font-family: Helvetica;
 }
 
 strong {
