@@ -16,6 +16,7 @@ body {
     background-image: linear-gradient(359deg, #3023ae, #eb7f7b);
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 .navbar {
@@ -29,6 +30,7 @@ body {
     top: 0;
     left: 0;
     justify-content: space-around;
+
 }
 
 .navbar h1 {
@@ -36,10 +38,14 @@ body {
     color: #ffffff;
     margin: 0;
     align-self: center;
+    grid-column: 3 / span 2;
 }
 
 .container {
 	width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
 }
 
 .search-bar {
@@ -80,6 +86,10 @@ input {
 .card-column {
 	background-color: #ffffff;
   min-height: 700px;
+  display: grid;
+  grid-template-rows: 20px repeat(5, 100px);
+  grid-auto-rows: 100px;
+  align-content: space-evenly;
 }
 
 .card-column h2 {
